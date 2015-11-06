@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+    <display-name>ZCMS</display-name>
+    <description>
+        This is a CMS web application called ZMCS by zencherry.com.
+    </description>
+<servlet>
+  <servlet-name>news</servlet-name>
+  <servlet-class>com.zencherry.site.news</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>page</servlet-name>
+  <servlet-class>com.zencherry.site.page</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>post</servlet-name>
+  <servlet-class>com.zencherry.site.post</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>xhrsignin</servlet-name>
+  <servlet-class>com.zencherry.site.xhrsignin</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>xhrsignout</servlet-name>
+  <servlet-class>com.zencherry.site.xhrsignout</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>addpage</servlet-name>
+  <servlet-class>com.zencherry.site.addpage</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>pagedrafts</servlet-name>
+  <servlet-class>com.zencherry.site.pagedrafts</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>xhrfunctions</servlet-name>
+  <servlet-class>com.zencherry.site.xhrfunctions</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>pageedit</servlet-name>
+  <servlet-class>com.zencherry.site.pageedit</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>adminpanel</servlet-name>
+  <servlet-class>com.zencherry.site.adminpanel</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>addpost</servlet-name>
+  <servlet-class>com.zencherry.site.addpost</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>postdrafts</servlet-name>
+  <servlet-class>com.zencherry.site.postdrafts</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>managepages</servlet-name>
+  <servlet-class>com.zencherry.site.managepages</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>manageposts</servlet-name>
+  <servlet-class>com.zencherry.site.manageposts</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>managecomments</servlet-name>
+  <servlet-class>com.zencherry.site.managecomments</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>search</servlet-name>
+  <servlet-class>com.zencherry.site.search</servlet-class>
+</servlet>
+<servlet>
+  <servlet-name>addmenu</servlet-name>
+  <servlet-class>com.zencherry.site.addmenu</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>news</servlet-name>
+  <url-pattern>/index.html</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>page</servlet-name>
+  <url-pattern>/page</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>post</servlet-name>
+  <url-pattern>/post</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>xhrsignin</servlet-name>
+  <url-pattern>/xhrsignin</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>xhrsignout</servlet-name>
+  <url-pattern>/xhrsignout</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>addpage</servlet-name>
+  <url-pattern>/addpage</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>pagedrafts</servlet-name>
+  <url-pattern>/pagedrafts</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>xhrfunctions</servlet-name>
+  <url-pattern>/xhrfunctions</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>pageedit</servlet-name>
+  <url-pattern>/pageedit</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>adminpanel</servlet-name>
+  <url-pattern>/adminpanel</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>addpost</servlet-name>
+  <url-pattern>/addpost</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>postdrafts</servlet-name>
+  <url-pattern>/postdrafts</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>managepages</servlet-name>
+  <url-pattern>/managepages</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>manageposts</servlet-name>
+  <url-pattern>/manageposts</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>search</servlet-name>
+  <url-pattern>/search</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>managecomments</servlet-name>
+  <url-pattern>/managecomments</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+  <servlet-name>addmenu</servlet-name>
+  <url-pattern>/addmenu</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
