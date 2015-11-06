@@ -1,2 +1,3 @@
 # zcms
-Simle Java Content Management System with Postgres Database.
+Simle yet secure Java Content Management System with a Postgres Database.
+Its bootstrap ready and Mozilla Persona authentication out of the box.
